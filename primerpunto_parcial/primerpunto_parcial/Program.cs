@@ -30,7 +30,7 @@ indique si ganó o no el beneficio.
         const decimal diez_porciento = 10; // el 10% de descuento 
 
         const decimal sueldobase = 700; // sueldo  base fijo
-        const decimal bonificacion_extra = 100;
+        
 
         decimal concepto_comisiones; // cuanto se hizo por esas 3 ventas en comiciones // primera pregunta 
         decimal sueldo_mas_comiciones; // dinero que recibio el trabajador por ventas y sueldo basico  // segunda pregunta
@@ -42,9 +42,7 @@ indique si ganó o no el beneficio.
 
 
 
-        decimal bonificacaion_extra; // ultimo parrafo 
-
-        // proceso
+        
 
         Console.Write(" ingrese el valor de la venta 1  "); // pedimos el valor de cada venta 
         valor_venta1 = Convert.ToDecimal(Console.ReadLine());
@@ -59,7 +57,7 @@ indique si ganó o no el beneficio.
 
         concepto_comisiones = (valor_venta1 + valor_venta2 + valor_venta3) * diez_porciento / 100;
 
-        Console.WriteLine(" el dinero optenido´por comicione es: " + concepto_comisiones);
+        Console.Write(" el dinero optenido´por comicione es: " + concepto_comisiones);
 
         //¿Cuál es el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones?
 
@@ -103,12 +101,17 @@ indique si ganó o no el beneficio.
 indique si ganó o no el beneficio.*/
 
         decimal beneficio_si_o_no = valor_venta1 + valor_venta2 + valor_venta3 ;
-
-        if (beneficio_si_o_no >= 1000000)
+        const decimal bonificacaion_extra = 100000 ;
+        if (beneficio_si_o_no >= bonificacaion_extra)
         {
             Console.WriteLine(" ha ganado un beneficio de 100,000 por buen vendedor ");
         }
-        
+
+        else
+        {
+            Console.WriteLine(" no eres ganador de nuestro beneficio pero siguelo intentando ");
+        }
+
 
 
 
