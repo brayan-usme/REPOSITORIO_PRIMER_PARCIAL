@@ -30,7 +30,7 @@ indique si ganó o no el beneficio.
         const decimal diez_porciento = 10; // el 10% de descuento 
 
         const decimal sueldobase = 700; // sueldo  base fijo
-
+        const decimal bonificacion_extra = 100;
 
         decimal concepto_comisiones; // cuanto se hizo por esas 3 ventas en comiciones // primera pregunta 
         decimal sueldo_mas_comiciones; // dinero que recibio el trabajador por ventas y sueldo basico  // segunda pregunta
@@ -78,7 +78,8 @@ indique si ganó o no el beneficio.
             Console.WriteLine(" la venta 2 es la de mayor comicion ");
 
         }
-        else {
+        else
+        {
             Console.Write(" la venta 3 es la de mayor comicion ");
         }
 
@@ -87,9 +88,9 @@ indique si ganó o no el beneficio.
 
         promedio_comisiones1 = valor_venta1 * diez_porciento / 100;
 
-        Console.WriteLine (" el promedio de la comicion de la venta 1 es: " + promedio_comisiones1);
+        Console.WriteLine(" el promedio de la comicion de la venta 1 es: " + promedio_comisiones1);
         /////////////////////////////////////////////////////////////////
-        
+
         promedio_comisiones2 = valor_venta2 * diez_porciento / 100;
         Console.WriteLine(" el promedio de la comicion de la venta 2 es: " + promedio_comisiones2);
         ///////////////////////////////////////////////
@@ -97,9 +98,17 @@ indique si ganó o no el beneficio.
         promedio_comisiones3 = valor_venta3 * diez_porciento / 100;
         Console.WriteLine(" el promedio de la comicion de la venta 3 es: " + promedio_comisiones3);
 
+        /* la empresa da un beneficio extra de $100.000 si el vendedor supera el objetivo del mes. El
+        objetivo es sumar en las 3 ventas como mínimo $1.000.000 en ventas. Mostrar un mensaje donde
+indique si ganó o no el beneficio.*/
 
+        decimal beneficio_si_o_no = valor_venta1 + valor_venta2 + valor_venta3 ;
 
-
+        if (beneficio_si_o_no >= 1000000)
+        {
+            Console.WriteLine(" ha ganado un beneficio de 100,000 por buen vendedor ");
+        }
+        
 
 
 
