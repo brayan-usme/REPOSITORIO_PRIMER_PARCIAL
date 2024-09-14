@@ -14,7 +14,7 @@ public class Program
         Console.WriteLine(" (a x + b = 0) esta es la formula para resolver el problema   ");
         // pedir variables y inicializar de una vez a fuegooooo
 
-        Console.WriteLine("Introduce el valor de [A] (el numerito de x): ");
+        Console.WriteLine("Introduce el valor de [A] (el coeficiente de x): ");
         double a = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("Introduce el valor de [B] (numero independiente): ");
