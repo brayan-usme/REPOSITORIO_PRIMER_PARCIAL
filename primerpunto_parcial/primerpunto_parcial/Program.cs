@@ -59,7 +59,7 @@ indique si ganó o no el beneficio.
 
         concepto_comisiones = (valor_venta1 + valor_venta2 + valor_venta3) * diez_porciento / 100;
 
-        Console.Write(" el dinero optenido´por comicione es: " + concepto_comisiones);
+        Console.WriteLine(" el dinero optenido´por comicione es: " + concepto_comisiones);
 
         //¿Cuál es el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones?
 
