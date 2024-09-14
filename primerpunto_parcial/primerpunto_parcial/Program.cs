@@ -29,7 +29,7 @@ indique si ganó o no el beneficio.
         // definir variables 
         const decimal diez_porciento = 10; // el 10% de descuento 
 
-        const decimal sueldobase = 1300000; // sueldo  base fijo
+        const decimal sueldobase = 700; // sueldo  base fijo
 
 
         decimal concepto_comisiones; // cuanto se hizo por esas 3 ventas en comiciones // primera pregunta 
@@ -57,10 +57,33 @@ indique si ganó o no el beneficio.
 
         //  ¿Cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes?
 
-        concepto_comisiones = (valor_venta1 + valor_venta2 + valor_venta3) * diez_porciento / 100 ;
+        concepto_comisiones = (valor_venta1 + valor_venta2 + valor_venta3) * diez_porciento / 100;
 
         Console.Write(" el dinero optenido´por comicione es: " + concepto_comisiones);
 
+        //¿Cuál es el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones?
+
+        sueldo_mas_comiciones = sueldobase + concepto_comisiones;
+        Console.WriteLine(" el dinero recibido tomando en cuenta el dinero del basico más las comiciones es de: " + sueldo_mas_comiciones);
+
+        if (valor_venta1 > valor_venta2 && valor_venta1 > valor_venta3)
+        {
+            Console.WriteLine(" la venta 1 fue la de mayor comicion");
+
+        }
+
+        else if (valor_venta2 > valor_venta1 && valor_venta2 > valor_venta3)
+
+        {
+            Console.WriteLine(" la venta 2 es la de mayor comicion ");
+
+        }
+        else {
+            Console.Write(" la venta 3 es la de mayor comicion ");
+        }
+
+     
+        
 
 
 
