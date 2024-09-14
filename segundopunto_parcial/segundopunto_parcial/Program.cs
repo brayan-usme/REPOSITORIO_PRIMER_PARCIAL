@@ -13,6 +13,15 @@ public class Program
         Console.WriteLine("Introduce el valor de a (el numerito de x): ");
         double a = Convert.ToDouble(Console.ReadLine());
 
+        Console.WriteLine("Introduce el valor de b (numero independiente): ");
+        double b = Convert.ToDouble(Console.ReadLine());
+
+        // para que la ecuacion sea correcta  la variable "a" debe ser diferente de 0
+        
+        if ()
+        {
+
+        }
 
 
 
