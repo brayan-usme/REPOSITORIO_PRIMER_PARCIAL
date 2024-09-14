@@ -55,6 +55,13 @@ indique si ganó o no el beneficio.
         Console.Write(" ingrese el valor de venta 3 ");
         valor_venta3 = Convert.ToDecimal(Console.ReadLine());
 
+        //  ¿Cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes?
+
+        concepto_comisiones = (valor_venta1 + valor_venta2 + valor_venta3) * diez_porciento / 100 ;
+
+        Console.Write(" el dinero optenido´por comicione es: " + concepto_comisiones);
+
+
 
 
 
