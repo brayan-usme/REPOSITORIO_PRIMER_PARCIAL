@@ -82,11 +82,20 @@ indique si ganó o no el beneficio.
             Console.Write(" la venta 3 es la de mayor comicion ");
         }
 
-     
+        // ¿Cuál fue el promedio de las comisiones que recibió por cada venta?
+
+
+        promedio_comisiones1 = valor_venta1 * diez_porciento / 100;
+
+        Console.WriteLine (" el promedio de la comicion de la venta 1 es: " + promedio_comisiones1);
+        /////////////////////////////////////////////////////////////////
         
+        promedio_comisiones2 = valor_venta2 * diez_porciento / 100;
+        Console.WriteLine(" el promedio de la comicion de la venta 2 es: " + promedio_comisiones2);
+        ///////////////////////////////////////////////
 
-
-
+        promedio_comisiones3 = valor_venta3 * diez_porciento / 100;
+        Console.WriteLine(" el promedio de la comicion de la venta 3 es: " + promedio_comisiones3);
 
 
 
