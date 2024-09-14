@@ -10,7 +10,8 @@ public class Program
 
 
 
-
+        // mostrale la formula al usuario para que sepa que se le esta pidiendo
+        Console.WriteLine(" (a x + b = 0) esta es la formula para resolver el problema   ");
         // pedir variables y inicializar de una vez a fuegooooo
 
         Console.WriteLine("Introduce el valor de a (el numerito de x): ");
@@ -26,16 +27,16 @@ public class Program
 
         if (a != 0)
         {
-            x = -b / a;
+            x = -b / a; // proceso para la ecuacion
 
-            Console.WriteLine(" la solucion es:  " + x);
+            Console.WriteLine(" la solucion es:  " + x); // mostrar solucion 
 
 
         }
-
-        else 
+        // si la variable "a" es = 0 no seria una ecuacion de primer grado valida 
+        else  
         {
-        cos
+        Console.WriteLine(" la variable (a) no puede sere igual a cero ya que sino no seria una ecuacuion de primer grado valido   ");
         
         }
 
