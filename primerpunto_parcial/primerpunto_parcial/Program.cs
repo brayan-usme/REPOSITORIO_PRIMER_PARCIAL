@@ -18,41 +18,67 @@ objetivo es sumar en las 3 ventas como mínimo $1.000.000 en ventas. Mostrar un 
 indique si ganó o no el beneficio.
 
         */
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+        // definir variables 
+        const double ventasrealizadas = 3 ; // cantidades de ventas realizadas
+
+        const double  sueldobase = 1300000 ; // sueldo  base fijo
+
+        decimal valor_venta1, valor_venta2, valor_venta3; // valores de cada venta realizada
+
+        decimal sueldo_mas_comiciones; // dinero que recibio el trabajador por ventas y sueldo basico 
+
+        decimal bonificacaion_extra;
+
+        // proceso
+
+        Console.Write(" ingrese el valor de la venta 1  "); // pedimos el valor de cada venta 
+       valor_venta1 =  Convert.ToDecimal(Console.ReadLine());
+
+        Console.Write(" ingrese el valor de venta 2 ");
+        valor_venta2 = Convert.ToDecimal(Console.ReadLine());
+
+        Console.Write(" ingrese el valor de venta 3 ");
+        valor_venta3 = Convert.ToDecimal(Console.ReadLine());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
