@@ -14,10 +14,10 @@ public class Program
         Console.WriteLine(" (a x + b = 0) esta es la formula para resolver el problema   ");
         // pedir variables y inicializar de una vez a fuegooooo
 
-        Console.WriteLine("Introduce el valor de a (el numerito de x): ");
+        Console.WriteLine("Introduce el valor de [A] (el numerito de x): ");
         double a = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Introduce el valor de b (numero independiente): ");
+        Console.WriteLine("Introduce el valor de [B] (numero independiente): ");
         double b = Convert.ToDouble(Console.ReadLine());
 
         double x;  // esta queda para hacer la operacion 
@@ -29,7 +29,7 @@ public class Program
         {
             x = -b / a; // proceso para la ecuacion
 
-            Console.WriteLine(" la solucion es:  " + x); // mostrar solucion 
+            Console.WriteLine(" la solucion es: x =  " + x); // mostrar solucion 
 
 
         }
