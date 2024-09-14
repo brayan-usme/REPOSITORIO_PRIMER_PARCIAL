@@ -23,14 +23,21 @@ public class Program
 
 
         // para que la ecuacion sea correcta  la variable "a" debe ser diferente de 0
-        
-        if (a != 0 )
+
+        if (a != 0)
         {
+            x = -b / a;
+
+            Console.WriteLine(" la solucion es:  " + x);
 
 
         }
 
-
+        else 
+        {
+        cos
+        
+        }
 
 
 
